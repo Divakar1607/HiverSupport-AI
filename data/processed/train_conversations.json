@@ -1,0 +1,1052 @@
+[
+  {
+    "conversation_id": "conv_000026",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_4043",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100050",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_4043",
+        "text": "My refund has not arrived in my bank account yet. It has been 10 days.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100051",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_4043 Refunds typically take 3-5 business days depending on your bank. Please DM us your order details so we can trace the transaction.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100050",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000024",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_8639",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100046",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_8639",
+        "text": "I cannot log into my account. It says password incorrect even after reset. Can someone please assist? Thanks.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100047",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_8639 Let's help you get back in! Please check your spam folder for the OTP, or visit our Account Recovery page.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100046",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000020",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_9129",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100038",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_9129",
+        "text": "@AmazonHelp My package arrived damaged. The box was crushed and the item inside is broken. This is frustrating!",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100039",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_9129 We're so sorry your item arrived damaged! Please DM us your order ID and a photo of the item so we can arrange a replacement.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100038",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000012",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_8127",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100022",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_8127",
+        "text": "Hey @AmazonHelp, can you help me cancel my order 112-984712-441? it was an accidental purchase.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100023",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_8127 You can cancel un-shipped items via Your Orders. If it has already dispatched, please refuse delivery or return it once received.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100022",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000005",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_9954",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100008",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_9954",
+        "text": "@AmazonHelp Where is my package? Tracking says delivered but nothing is here! This is frustrating!",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100009",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_9954 We're sorry to hear that! Please check with neighbors or front desk. If still not found, send us a DM with your order ID.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100008",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000046",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_6510",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100090",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_6510",
+        "text": "Your customer service agent hung up on me earlier. Terrible experience.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100091",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_6510 We hold our service to high standards and apologize sincerely. Please send us a DM with your phone number and time of call so we can investigate.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100090",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000027",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_7825",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100052",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_7825",
+        "text": "Hey @AmazonHelp, my refund has not arrived in my bank account yet. it has been 10 days.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100053",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_7825 Refunds typically take 3-5 business days depending on your bank. Please DM us your order details so we can trace the transaction.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100052",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000010",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_6717",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100018",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_6717",
+        "text": "@AmazonHelp I was charged twice for my Prime membership this month! Please refund. This is frustrating!",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100019",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_6717 We apologize for the double billing! Please send us a DM with your account email so we can verify and issue an immediate refund.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100018",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000030",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_9108",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100058",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_9108",
+        "text": "@AmazonHelp My refund has not arrived in my bank account yet. It has been 10 days. This is frustrating!",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100059",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_9108 Refunds typically take 3-5 business days depending on your bank. Please DM us your order details so we can trace the transaction.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100058",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000017",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_6305",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100032",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_6305",
+        "text": "Hey @AmazonHelp, my package arrived damaged. the box was crushed and the item inside is broken.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100033",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_6305 We're so sorry your item arrived damaged! Please DM us your order ID and a photo of the item so we can arrange a replacement.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100032",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000032",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_2318",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100062",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_2318",
+        "text": "Hey @AmazonHelp, how do i return a gift that i received without notifying the sender?",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100063",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_2318 You can return gifts via our Online Returns Center using the 17-digit order number from the packing slip! Send us a DM if you need help.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100062",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000022",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_3018",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100042",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_3018",
+        "text": "Hey @AmazonHelp, i cannot log into my account. it says password incorrect even after reset.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100043",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_3018 Let's help you get back in! Please check your spam folder for the OTP, or visit our Account Recovery page.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100042",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000013",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_3634",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100024",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_3634",
+        "text": "@AmazonHelp Urgent: Can you help me cancel my order 112-984712-441? It was an accidental purchase.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100025",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_3634 You can cancel un-shipped items via Your Orders. If it has already dispatched, please refuse delivery or return it once received.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100024",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000004",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_3570",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100006",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_3570",
+        "text": "Where is my package? Tracking says delivered but nothing is here! Can someone please assist? Thanks.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100007",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_3570 We're sorry to hear that! Please check with neighbors or front desk. If still not found, send us a DM with your order ID.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100006",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000040",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_7219",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100078",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_7219",
+        "text": "@AmazonHelp Streaming quality on Prime Video is buffering constantly on my TV. This is frustrating!",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100079",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_7219 Sorry for the playback issues! Please restart your router, clear Prime Video app cache, and ensure your app is updated to the latest version.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100078",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000039",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_3803",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100076",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_3803",
+        "text": "Streaming quality on Prime Video is buffering constantly on my TV. Can someone please assist? Thanks.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100077",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_3803 Sorry for the playback issues! Please restart your router, clear Prime Video app cache, and ensure your app is updated to the latest version.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100076",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000011",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_1858",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100020",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_1858",
+        "text": "Can you help me cancel my order 112-984712-441? It was an accidental purchase.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100021",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_1858 You can cancel un-shipped items via Your Orders. If it has already dispatched, please refuse delivery or return it once received.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100020",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000025",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_3143",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100048",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_3143",
+        "text": "@AmazonHelp I cannot log into my account. It says password incorrect even after reset. This is frustrating!",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100049",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_3143 Let's help you get back in! Please check your spam folder for the OTP, or visit our Account Recovery page.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100048",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000036",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_3964",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100070",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_3964",
+        "text": "Streaming quality on Prime Video is buffering constantly on my TV.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100071",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_3964 Sorry for the playback issues! Please restart your router, clear Prime Video app cache, and ensure your app is updated to the latest version.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100070",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000001",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_2539",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100000",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_2539",
+        "text": "Where is my package? Tracking says delivered but nothing is here!",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100001",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_2539 We're sorry to hear that! Please check with neighbors or front desk. If still not found, send us a DM with your order ID.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100000",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000044",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_1294",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100086",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_1294",
+        "text": "I need an official VAT invoice for my business purchase. Can someone please assist? Thanks.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100087",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_1294 You can download VAT invoices directly from 'Your Orders' -> 'Invoice'. DM us if the invoice option is missing.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100086",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000019",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_7860",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100036",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_7860",
+        "text": "My package arrived damaged. The box was crushed and the item inside is broken. Can someone please assist? Thanks.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100037",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_7860 We're so sorry your item arrived damaged! Please DM us your order ID and a photo of the item so we can arrange a replacement.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100036",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000034",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_5061",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100066",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_5061",
+        "text": "How do I return a gift that I received without notifying the sender? Can someone please assist? Thanks.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100067",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_5061 You can return gifts via our Online Returns Center using the 17-digit order number from the packing slip! Send us a DM if you need help.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100066",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000049",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_7161",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100096",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_7161",
+        "text": "Your customer service agent hung up on me earlier. Terrible experience. Can someone please assist? Thanks.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100097",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_7161 We hold our service to high standards and apologize sincerely. Please send us a DM with your phone number and time of call so we can investigate.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100096",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000042",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_9556",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100082",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_9556",
+        "text": "Hey @AmazonHelp, i need an official vat invoice for my business purchase.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100083",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_9556 You can download VAT invoices directly from 'Your Orders' -> 'Invoice'. DM us if the invoice option is missing.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100082",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000031",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_3831",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100060",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_3831",
+        "text": "How do I return a gift that I received without notifying the sender?",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100061",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_3831 You can return gifts via our Online Returns Center using the 17-digit order number from the packing slip! Send us a DM if you need help.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100060",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000029",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_2157",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100056",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_2157",
+        "text": "My refund has not arrived in my bank account yet. It has been 10 days. Can someone please assist? Thanks.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100057",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_2157 Refunds typically take 3-5 business days depending on your bank. Please DM us your order details so we can trace the transaction.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100056",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000021",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_4344",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100040",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_4344",
+        "text": "I cannot log into my account. It says password incorrect even after reset.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100041",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_4344 Let's help you get back in! Please check your spam folder for the OTP, or visit our Account Recovery page.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100040",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000023",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_5281",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100044",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_5281",
+        "text": "@AmazonHelp Urgent: I cannot log into my account. It says password incorrect even after reset.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100045",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_5281 Let's help you get back in! Please check your spam folder for the OTP, or visit our Account Recovery page.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100044",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000043",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_1988",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100084",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_1988",
+        "text": "@AmazonHelp Urgent: I need an official VAT invoice for my business purchase.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100085",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_1988 You can download VAT invoices directly from 'Your Orders' -> 'Invoice'. DM us if the invoice option is missing.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100084",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000047",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_3086",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100092",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_3086",
+        "text": "Hey @AmazonHelp, your customer service agent hung up on me earlier. terrible experience.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100093",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_3086 We hold our service to high standards and apologize sincerely. Please send us a DM with your phone number and time of call so we can investigate.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100092",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000037",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_1732",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100072",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_1732",
+        "text": "Hey @AmazonHelp, streaming quality on prime video is buffering constantly on my tv.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100073",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_1732 Sorry for the playback issues! Please restart your router, clear Prime Video app cache, and ensure your app is updated to the latest version.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100072",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000033",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_1345",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100064",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_1345",
+        "text": "@AmazonHelp Urgent: How do I return a gift that I received without notifying the sender?",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100065",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_1345 You can return gifts via our Online Returns Center using the 17-digit order number from the packing slip! Send us a DM if you need help.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100064",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000045",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_8789",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100088",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_8789",
+        "text": "@AmazonHelp I need an official VAT invoice for my business purchase. This is frustrating!",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100089",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_8789 You can download VAT invoices directly from 'Your Orders' -> 'Invoice'. DM us if the invoice option is missing.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100088",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000014",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_7826",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100026",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_7826",
+        "text": "Can you help me cancel my order 112-984712-441? It was an accidental purchase. Can someone please assist? Thanks.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100027",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_7826 You can cancel un-shipped items via Your Orders. If it has already dispatched, please refuse delivery or return it once received.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100026",
+        "position": 1
+      }
+    ]
+  }
+]

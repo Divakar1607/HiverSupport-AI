@@ -1,0 +1,242 @@
+[
+  {
+    "conversation_id": "conv_000007",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_4903",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100012",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_4903",
+        "text": "Hey @AmazonHelp, i was charged twice for my prime membership this month! please refund.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100013",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_4903 We apologize for the double billing! Please send us a DM with your account email so we can verify and issue an immediate refund.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100012",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000009",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_8187",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100016",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_8187",
+        "text": "I was charged twice for my Prime membership this month! Please refund. Can someone please assist? Thanks.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100017",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_8187 We apologize for the double billing! Please send us a DM with your account email so we can verify and issue an immediate refund.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100016",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000015",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_9480",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100028",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_9480",
+        "text": "@AmazonHelp Can you help me cancel my order 112-984712-441? It was an accidental purchase. This is frustrating!",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100029",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_9480 You can cancel un-shipped items via Your Orders. If it has already dispatched, please refuse delivery or return it once received.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100028",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000016",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_3188",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100030",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_3188",
+        "text": "My package arrived damaged. The box was crushed and the item inside is broken.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100031",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_3188 We're so sorry your item arrived damaged! Please DM us your order ID and a photo of the item so we can arrange a replacement.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100030",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000018",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_9401",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100034",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_9401",
+        "text": "@AmazonHelp Urgent: My package arrived damaged. The box was crushed and the item inside is broken.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100035",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_9401 We're so sorry your item arrived damaged! Please DM us your order ID and a photo of the item so we can arrange a replacement.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100034",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000002",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_5209",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100002",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_5209",
+        "text": "Hey @AmazonHelp, where is my package? tracking says delivered but nothing is here!",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100003",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_5209 We're sorry to hear that! Please check with neighbors or front desk. If still not found, send us a DM with your order ID.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100002",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000008",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_4886",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100014",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_4886",
+        "text": "@AmazonHelp Urgent: I was charged twice for my Prime membership this month! Please refund.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100015",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_4886 We apologize for the double billing! Please send us a DM with your account email so we can verify and issue an immediate refund.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100014",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000041",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_9203",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100080",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_9203",
+        "text": "I need an official VAT invoice for my business purchase.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100081",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_9203 You can download VAT invoices directly from 'Your Orders' -> 'Invoice'. DM us if the invoice option is missing.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100080",
+        "position": 1
+      }
+    ]
+  }
+]

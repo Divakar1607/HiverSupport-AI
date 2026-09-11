@@ -1,0 +1,212 @@
+[
+  {
+    "conversation_id": "conv_000050",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_6714",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100098",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_6714",
+        "text": "@AmazonHelp Your customer service agent hung up on me earlier. Terrible experience. This is frustrating!",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100099",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_6714 We hold our service to high standards and apologize sincerely. Please send us a DM with your phone number and time of call so we can investigate.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100098",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000048",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_4489",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100094",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_4489",
+        "text": "@AmazonHelp Urgent: Your customer service agent hung up on me earlier. Terrible experience.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100095",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_4489 We hold our service to high standards and apologize sincerely. Please send us a DM with your phone number and time of call so we can investigate.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100094",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000003",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_2613",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100004",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_2613",
+        "text": "@AmazonHelp Urgent: Where is my package? Tracking says delivered but nothing is here!",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100005",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_2613 We're sorry to hear that! Please check with neighbors or front desk. If still not found, send us a DM with your order ID.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100004",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000028",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_9291",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100054",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_9291",
+        "text": "@AmazonHelp Urgent: My refund has not arrived in my bank account yet. It has been 10 days.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100055",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_9291 Refunds typically take 3-5 business days depending on your bank. Please DM us your order details so we can trace the transaction.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100054",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000038",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_2833",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100074",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_2833",
+        "text": "@AmazonHelp Urgent: Streaming quality on Prime Video is buffering constantly on my TV.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100075",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_2833 Sorry for the playback issues! Please restart your router, clear Prime Video app cache, and ensure your app is updated to the latest version.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100074",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000006",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_6593",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100010",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_6593",
+        "text": "I was charged twice for my Prime membership this month! Please refund.",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100011",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_6593 We apologize for the double billing! Please send us a DM with your account email so we can verify and issue an immediate refund.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100010",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv_000035",
+    "brand": "AmazonHelp",
+    "customer_id": "cust_1576",
+    "message_count": 2,
+    "timestamps": [
+      "Tue Oct 31 10:00:00 +0000 2017",
+      "Tue Oct 31 10:15:00 +0000 2017"
+    ],
+    "messages": [
+      {
+        "message_id": "100068",
+        "author_type": "CUSTOMER",
+        "author_id": "cust_1576",
+        "text": "@AmazonHelp How do I return a gift that I received without notifying the sender? This is frustrating!",
+        "timestamp": "Tue Oct 31 10:00:00 +0000 2017",
+        "in_reply_to": "",
+        "position": 0
+      },
+      {
+        "message_id": "100069",
+        "author_type": "BRAND",
+        "author_id": "AmazonHelp",
+        "text": "@cust_1576 You can return gifts via our Online Returns Center using the 17-digit order number from the packing slip! Send us a DM if you need help.",
+        "timestamp": "Tue Oct 31 10:15:00 +0000 2017",
+        "in_reply_to": "100068",
+        "position": 1
+      }
+    ]
+  }
+]
