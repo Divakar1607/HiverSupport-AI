@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables and secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# Raw and interim data (large Kaggle datasets)
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+
+# Large generated embeddings / FAISS indices
+*.faiss
+*.index
+*.npy
+*.npz
+data/processed/embeddings/
+
+# Node / Frontend
+app/frontend/node_modules/
+app/frontend/dist/
+app/frontend/.vite/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
