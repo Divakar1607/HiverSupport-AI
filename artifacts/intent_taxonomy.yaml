@@ -1,0 +1,157 @@
+brand: AmazonHelp
+version: 1.0.0-frozen
+intents:
+- id: delivery_delay
+  description: Customer inquires about late delivery, missing packages, or carrier
+    tracking status.
+  examples:
+  - Where is my package? Tracking says delivered but nothing is here!
+  - My shipment was supposed to arrive yesterday, what is the delay?
+  - Carrier marked package as delivered but front porch is completely empty.
+  keywords:
+  - package
+  - tracking
+  - delivered
+  - shipping
+  - carrier
+  - late
+  - arrive
+  - order
+- id: refund_request
+  description: Customer requests refund for double billing, canceled orders, or missing
+    payments.
+  examples:
+  - I was charged twice for my Prime membership this month! Please refund.
+  - My refund has not arrived in my bank account yet. It has been 10 days.
+  - Please reverse the charge on my card for the returned item.
+  keywords:
+  - refund
+  - charged
+  - double
+  - bank
+  - money
+  - account
+  - billing
+  - credit
+- id: cancellation_request
+  description: Customer asks to cancel an order, shipment, or service before or after
+    dispatch.
+  examples:
+  - Can you help me cancel my order 112-984712-441? It was an accidental purchase.
+  - I ordered by mistake 5 minutes ago, please cancel it immediately.
+  - How do I cancel an order that is preparing for dispatch?
+  keywords:
+  - cancel
+  - cancellation
+  - accidental
+  - dispatched
+  - stop
+  - order
+- id: damaged_item
+  description: Customer reports receiving damaged, defective, broken, or spoiled products.
+  examples:
+  - My package arrived damaged. The box was crushed and the item inside is broken.
+  - Received the glass mug completely shattered inside the bubble wrap.
+  - Item is defective right out of the box and won't turn on.
+  keywords:
+  - damaged
+  - broken
+  - crushed
+  - defective
+  - shattered
+  - replacement
+  - box
+- id: account_access
+  description: Customer experiences issues logging in, two-factor authentication (OTP),
+    or password resets.
+  examples:
+  - I cannot log into my account. It says password incorrect even after reset.
+  - Not receiving the 2-step verification OTP on my phone.
+  - My account has been locked due to suspicious activity, please help unlock.
+  keywords:
+  - login
+  - password
+  - otp
+  - locked
+  - verification
+  - access
+  - email
+  - code
+- id: return_policy_inquiry
+  description: Customer asks about return instructions, return windows, drop-off locations,
+    or gift returns.
+  examples:
+  - How do I return a gift that I received without notifying the sender?
+  - Where do I drop off my return package? Do I need to print a label?
+  - What is the return window for electronics purchased during holidays?
+  keywords:
+  - return
+  - drop-off
+  - gift
+  - policy
+  - window
+  - label
+  - ups
+  - pack
+- id: technical_problem
+  description: Customer reports software glitches, app crashes, playback buffering,
+    or website errors.
+  examples:
+  - Streaming quality on Prime Video is buffering constantly on my TV.
+  - The mobile app crashes every time I click checkout.
+  - Getting error code 500 when trying to view my cart on desktop.
+  keywords:
+  - app
+  - buffering
+  - error
+  - glitch
+  - crash
+  - website
+  - streaming
+  - video
+- id: product_question
+  description: Customer asks questions about product availability, specifications,
+    or invoice downloads.
+  examples:
+  - I need an official VAT invoice for my business purchase.
+  - When will the 256GB version be back in stock?
+  - Does this electronic item come with a manufacturer warranty?
+  keywords:
+  - invoice
+  - vat
+  - stock
+  - size
+  - warranty
+  - specifications
+  - price
+- id: complaint_escalation
+  description: Customer expresses severe dissatisfaction with previous agent interactions
+    or service quality.
+  examples:
+  - Your customer service agent hung up on me earlier. Terrible experience.
+  - I have been transferred to 4 different people and no one solved my issue!
+  - I demand to speak with a supervisor immediately regarding this treatment.
+  keywords:
+  - terrible
+  - rude
+  - agent
+  - hung up
+  - complaint
+  - supervisor
+  - escalate
+  - unacceptable
+- id: unknown_other
+  description: Inquiries that do not fit defined categories, are ambiguous, empty,
+    or out-of-domain.
+  examples:
+  - Hello is anyone there?
+  - Just wanted to say thank you for good service.
+  - Random text with no context or account information.
+  keywords:
+  - hello
+  - hey
+  - thanks
+  - test
+  - question
+  - help
+  - anyone
