@@ -1,0 +1,201 @@
+id,conversation_id,message,intent,expected_action,difficulty,evidence_available,notes
+gold_001,gold_conv_001,Where is my package? Tracking says delivered but nothing is here!,delivery_delay,AUTO_HANDLE,EASY,TRUE,Standard package tracking inquiry with available historical resolution.
+gold_002,gold_conv_002,"My order was supposed to arrive by 8 PM yesterday, still no delivery.",delivery_delay,AUTO_HANDLE,EASY,TRUE,Clear late delivery query.
+gold_003,gold_conv_003,Package tracking status hasn't updated in 4 days. Is it lost in transit?,delivery_delay,AUTO_HANDLE,EASY,TRUE,Stuck tracking inquiry.
+gold_004,gold_conv_004,Driver says handed directly to resident but I was at work all day.,delivery_delay,AUTO_HANDLE,MEDIUM,TRUE,Misdelivery claim; standard advice is check property then contact support.
+gold_005,gold_conv_005,It's been two weeks and my parcel is still stuck at the regional sort facility.,delivery_delay,AUTO_HANDLE,MEDIUM,TRUE,Transit delay inquiry.
+gold_006,gold_conv_006,"Package marked delivered on porch but building has no porch, it's an apartment high-rise.",delivery_delay,AUTO_HANDLE,MEDIUM,TRUE,Misdelivery at wrong building structure.
+gold_007,gold_conv_007,Guaranteed 1-day shipping failed for the third time this week!,delivery_delay,AUTO_HANDLE,MEDIUM,TRUE,Prime delivery promise breach.
+gold_008,gold_conv_008,Tracking number 9400111899562537612 shows delivery attempted but gate code was provided.,delivery_delay,AUTO_HANDLE,MEDIUM,TRUE,Delivery access issue.
+gold_009,gold_conv_009,Is there any way to expedite my shipment after dispatch?,delivery_delay,AUTO_HANDLE,EASY,TRUE,Post-dispatch speed request.
+gold_010,gold_conv_010,Delivery attempted notice left but nobody rang the bell.,delivery_delay,AUTO_HANDLE,EASY,TRUE,Missed delivery attempt inquiry.
+gold_011,gold_conv_011,Where is my stuff?! You promised Tuesday!,delivery_delay,AUTO_HANDLE,EASY,TRUE,Colloquial late delivery query.
+gold_012,gold_conv_012,My meds were inside that package and temperature sensitive. Need this immediately or I will be hospitalized.,delivery_delay,ESCALATE,HARD,FALSE,Medical emergency / high-risk situation requiring human intervention.
+gold_013,gold_conv_013,"Driver literally threw my package onto the roof, how do I get it down?",delivery_delay,ESCALATE,HARD,FALSE,Bizarre delivery mishap needing specialized dispatch review.
+gold_014,gold_conv_014,Tracking says delivered to mailroom but receptionist states no courier arrived.,delivery_delay,AUTO_HANDLE,MEDIUM,TRUE,Commercial address misplacement.
+gold_015,gold_conv_015,Can I change delivery address while package is out for delivery with courier?,delivery_delay,AUTO_HANDLE,MEDIUM,TRUE,In-transit rerouting request.
+gold_016,gold_conv_016,"Package stolen off my porch, I have security cam footage of the thief.",delivery_delay,ESCALATE,HARD,FALSE,Theft / police report claim needing manual claims handling.
+gold_017,gold_conv_017,Delayed again? This is getting ridiculous.,delivery_delay,AUTO_HANDLE,EASY,TRUE,Short frustrated delivery complaint.
+gold_018,gold_conv_018,Courier marked business closed at 2 PM on a weekday.,delivery_delay,AUTO_HANDLE,MEDIUM,TRUE,Delivery attempt dispute.
+gold_019,gold_conv_019,My parcel says delivered to neighbor in unit 4B but unit 4B is vacant.,delivery_delay,AUTO_HANDLE,HARD,TRUE,Complex delivery anomaly.
+gold_020,gold_conv_020,Delivery driver backed into my driveway gate and broke it while delivering!,delivery_delay,ESCALATE,HARD,FALSE,Property damage claim; strictly escalate.
+gold_021,gold_conv_021,"Expected delivery was 3 days ago, no status update since.",delivery_delay,AUTO_HANDLE,EASY,TRUE,Late shipment inquiry.
+gold_022,gold_conv_022,Can I pick up the package from the carrier hub directly instead of waiting?,delivery_delay,AUTO_HANDLE,MEDIUM,TRUE,Hub pickup inquiry.
+gold_023,gold_conv_023,Tracking shows returned to sender because address was illegible.,delivery_delay,AUTO_HANDLE,MEDIUM,TRUE,Return to sender exception.
+gold_024,gold_conv_024,Package was left in the rain and ruined.,delivery_delay,AUTO_HANDLE,MEDIUM,TRUE,Weather damage on delivery.
+gold_025,gold_conv_025,Still waiting... order 402-9981241-11234,delivery_delay,AUTO_HANDLE,EASY,TRUE,Short inquiry with order ID.
+gold_026,gold_conv_026,I was charged twice for my Prime membership this month! Please refund.,refund_request,AUTO_HANDLE,EASY,TRUE,Classic duplicate subscription charge.
+gold_027,gold_conv_027,My refund has not arrived in my bank account yet. It has been 10 business days.,refund_request,AUTO_HANDLE,EASY,TRUE,Standard refund turnaround inquiry.
+gold_028,gold_conv_028,"Returned my item over a week ago, when will I get my money back?",refund_request,AUTO_HANDLE,EASY,TRUE,Return refund timeline.
+gold_029,gold_conv_029,You promised a promotional credit refund of $20 and it is not on my statement.,refund_request,AUTO_HANDLE,MEDIUM,TRUE,Promotional balance dispute.
+gold_030,gold_conv_030,I will file a chargeback with my bank and report you for fraud if my $1200 refund is not issued today!,refund_request,ESCALATE,HARD,FALSE,Chargeback / fraud threat; high risk policy escalation.
+gold_031,gold_conv_031,Why was a restocking fee deducted from my refund? Item was defective!,refund_request,AUTO_HANDLE,MEDIUM,TRUE,Restocking fee dispute.
+gold_032,gold_conv_032,Can I get a refund to a different credit card since my original card was closed?,refund_request,AUTO_HANDLE,MEDIUM,TRUE,Closed card refund destination.
+gold_033,gold_conv_033,Refund issued as gift card balance instead of original payment method.,refund_request,AUTO_HANDLE,MEDIUM,TRUE,Refund payment method correction.
+gold_034,gold_conv_034,My attorney advised me to contact you one last time before initiating legal recovery for this withheld refund.,refund_request,ESCALATE,HARD,FALSE,Legal attorney mention; mandatory escalation.
+gold_035,gold_conv_035,Order was cancelled by seller but charge is still pending on my debit card.,refund_request,AUTO_HANDLE,EASY,TRUE,Pending authorization drop explanation.
+gold_036,gold_conv_036,Where is my money?? Order 114-8871923-9912.,refund_request,AUTO_HANDLE,EASY,TRUE,Aggressive but standard refund tracking.
+gold_037,gold_conv_037,Item price dropped by $30 the day after I bought it. Can I get a price difference refund?,refund_request,AUTO_HANDLE,MEDIUM,TRUE,Post-purchase price match policy.
+gold_038,gold_conv_038,I returned 3 items in one box but only got refunded for 1.,refund_request,ESCALATE,HARD,FALSE,Multi-item consolidated return discrepancy needing manual investigation.
+gold_039,gold_conv_039,"Accidentally bought Kindle book, haven't read it, please refund.",refund_request,AUTO_HANDLE,EASY,TRUE,Digital Kindle return within window.
+gold_040,gold_conv_040,Bank says Amazon never sent the refund transaction batch.,refund_request,AUTO_HANDLE,MEDIUM,TRUE,ARN/trace number request.
+gold_041,gold_conv_041,Charged for annual plan when I only signed up for free trial.,refund_request,AUTO_HANDLE,EASY,TRUE,Trial conversion refund.
+gold_042,gold_conv_042,Unauthorized recurring charges appearing on my credit card every month.,refund_request,ESCALATE,HARD,FALSE,Suspected fraudulent billing.
+gold_043,gold_conv_043,How long does a refund to PayPal take compared to bank debit?,refund_request,AUTO_HANDLE,EASY,TRUE,Payment method timeframe comparison.
+gold_044,gold_conv_044,My gift card refund didn't credit back to my account balance.,refund_request,AUTO_HANDLE,MEDIUM,TRUE,Gift card balance reconciliation.
+gold_045,gold_conv_045,Representative promised a full refund in chat yesterday but no email confirmation arrived.,refund_request,AUTO_HANDLE,MEDIUM,TRUE,Agent commitment verification.
+gold_046,gold_conv_046,Can I decline an exchange and request a straight refund instead?,refund_request,AUTO_HANDLE,EASY,TRUE,Exchange vs refund preference.
+gold_047,gold_conv_047,Charged $99 for something I never purchased in my life.,refund_request,ESCALATE,HARD,FALSE,Unauthorized transaction claim.
+gold_048,gold_conv_048,Received partial refund of $14 instead of the full $65.,refund_request,AUTO_HANDLE,MEDIUM,TRUE,Partial refund inquiry.
+gold_049,gold_conv_049,Refund status says complete in portal but zero credit on bank app.,refund_request,AUTO_HANDLE,EASY,TRUE,Portal vs bank settlement delay.
+gold_050,gold_conv_050,Money back please.,refund_request,AUTO_HANDLE,EASY,TRUE,Terse refund demand.
+gold_051,gold_conv_051,Can you help me cancel my order 112-984712-441? It was an accidental purchase.,cancellation_request,AUTO_HANDLE,EASY,TRUE,Standard self-service order cancellation.
+gold_052,gold_conv_052,I placed an order 10 minutes ago and need to cancel it right now.,cancellation_request,AUTO_HANDLE,EASY,TRUE,Immediate post-order cancellation.
+gold_053,gold_conv_053,Tried cancelling through the app but the cancel button is greyed out.,cancellation_request,AUTO_HANDLE,MEDIUM,TRUE,Cancellation button disabled (preparing for shipment).
+gold_054,gold_conv_054,How do I cancel my Subscribe & Save scheduled delivery for next week?,cancellation_request,AUTO_HANDLE,EASY,TRUE,Subscribe & Save cancellation guidance.
+gold_055,gold_conv_055,"I want to cancel only item 2 in my order, not the entire basket.",cancellation_request,AUTO_HANDLE,MEDIUM,TRUE,Partial line-item cancellation.
+gold_056,gold_conv_056,Please stop shipment immediately! Wrong address entered by mistake.,cancellation_request,AUTO_HANDLE,MEDIUM,TRUE,Urgent address mistake cancellation.
+gold_057,gold_conv_057,Cancel order #8841-2991.,cancellation_request,AUTO_HANDLE,EASY,TRUE,Terse cancellation command.
+gold_058,gold_conv_058,"Order says 'Preparing for dispatch', can customer support force a cancellation?",cancellation_request,AUTO_HANDLE,MEDIUM,TRUE,Warehouse dispatch lock explanation.
+gold_059,gold_conv_059,I requested cancellation 2 hours ago but just received a shipping confirmation notification.,cancellation_request,AUTO_HANDLE,MEDIUM,TRUE,Race condition cancellation advice (refuse delivery).
+gold_060,gold_conv_060,How do I cancel a digital software preorder before release date?,cancellation_request,AUTO_HANDLE,EASY,TRUE,Digital preorder cancellation.
+gold_061,gold_conv_061,Cancel my Amazon Music Unlimited subscription right now.,cancellation_request,AUTO_HANDLE,EASY,TRUE,Subscription cancellation.
+gold_062,gold_conv_062,"Accidentally bought 10 units instead of 1, please cancel 9 units.",cancellation_request,AUTO_HANDLE,MEDIUM,TRUE,Quantity mistake cancellation.
+gold_063,gold_conv_063,"If this custom engraved order cannot be cancelled, I will contest the transaction.",cancellation_request,ESCALATE,HARD,FALSE,Custom goods non-cancellable dispute with threat.
+gold_064,gold_conv_064,"My toddler ordered a movie on Fire TV, cancel it immediately.",cancellation_request,AUTO_HANDLE,EASY,TRUE,Accidental VOD purchase cancellation.
+gold_065,gold_conv_065,Third-party seller ignored my cancellation request and shipped anyway.,cancellation_request,AUTO_HANDLE,MEDIUM,TRUE,Marketplace seller dispute policy.
+gold_066,gold_conv_066,I need to cancel an order placed with a gift card before it redeems.,cancellation_request,AUTO_HANDLE,MEDIUM,TRUE,Gift card tender reversal.
+gold_067,gold_conv_067,Can I cancel an order while it is in transit?,cancellation_request,AUTO_HANDLE,EASY,TRUE,In-transit cancellation clarification.
+gold_068,gold_conv_068,Is there a penalty or fee for cancelling an order prior to delivery?,cancellation_request,AUTO_HANDLE,EASY,TRUE,Cancellation policy clarification.
+gold_069,gold_conv_069,Can someone cancel my scheduled grocery delivery slot for tomorrow morning?,cancellation_request,AUTO_HANDLE,EASY,TRUE,Fresh slot cancellation.
+gold_070,gold_conv_070,Please cancel.,cancellation_request,AUTO_HANDLE,EASY,TRUE,Very short inquiry.
+gold_071,gold_conv_071,My package arrived damaged. The box was crushed and the item inside is broken.,damaged_item,AUTO_HANDLE,EASY,TRUE,Standard damaged item complaint.
+gold_072,gold_conv_072,The ceramic plates I ordered arrived shattered into hundreds of pieces.,damaged_item,AUTO_HANDLE,EASY,TRUE,Broken fragile goods.
+gold_073,gold_conv_073,"Opened the box and the perfume bottle leaked everywhere, completely empty.",damaged_item,AUTO_HANDLE,EASY,TRUE,Liquid spill / damaged goods.
+gold_074,gold_conv_074,Brand new TV screen has a huge internal crack right down the middle when powered on.,damaged_item,AUTO_HANDLE,MEDIUM,TRUE,High value damaged electronics replacement.
+gold_075,gold_conv_075,Received an opened box with missing parts and scratches. This was sold as brand new!,damaged_item,AUTO_HANDLE,MEDIUM,TRUE,Used item sold as new / missing parts.
+gold_076,gold_conv_076,The lithium battery inside the electronic device started smoking and melted the plastic casing!,damaged_item,ESCALATE,HARD,FALSE,Safety hazard / fire risk; mandatory high-priority escalation.
+gold_077,gold_conv_077,Clothing item arrived stained with grease.,damaged_item,AUTO_HANDLE,EASY,TRUE,Soiled apparel replacement.
+gold_078,gold_conv_078,Book cover is torn and several pages are ripped out.,damaged_item,AUTO_HANDLE,EASY,TRUE,Damaged print book.
+gold_079,gold_conv_079,Box was soaking wet and disintegrating when delivered by the carrier.,damaged_item,AUTO_HANDLE,MEDIUM,TRUE,Carrier water damage.
+gold_080,gold_conv_080,Laptop turns on but half the keyboard keys do not register.,damaged_item,AUTO_HANDLE,MEDIUM,TRUE,Defective hardware.
+gold_081,gold_conv_081,Broken glass cut my child's hand when opening the crushed delivery box!,damaged_item,ESCALATE,HARD,FALSE,Physical injury caused by damaged shipment; mandatory escalation.
+gold_082,gold_conv_082,"Item arrived without the power adapter, cannot use it.",damaged_item,AUTO_HANDLE,EASY,TRUE,Missing accessory.
+gold_083,gold_conv_083,Food package seal was broken and expiration date was last month.,damaged_item,AUTO_HANDLE,MEDIUM,TRUE,Expired / tampered grocery item.
+gold_084,gold_conv_084,Do I have to return the broken glass shards to get a refund?,damaged_item,AUTO_HANDLE,EASY,TRUE,Hazardous return exception policy.
+gold_085,gold_conv_085,Watch glass is badly scratched out of the sealed box.,damaged_item,AUTO_HANDLE,EASY,TRUE,Cosmetic defect on arrival.
+gold_086,gold_conv_086,Guitar neck snapped in half during transit.,damaged_item,AUTO_HANDLE,MEDIUM,TRUE,Severe transit breakage.
+gold_087,gold_conv_087,Second replacement item arrived damaged just like the first one!,damaged_item,ESCALATE,HARD,FALSE,Repeated fulfillment failure; customer frustration.
+gold_088,gold_conv_088,Shoes sent were scuffed and clearly worn outside.,damaged_item,AUTO_HANDLE,EASY,TRUE,Used merchandise return.
+gold_089,gold_conv_089,Monitor has 5 dead pixels in the center of the display.,damaged_item,AUTO_HANDLE,MEDIUM,TRUE,Electronic defect tolerance inquiry.
+gold_090,gold_conv_090,"Crushed box, broken inside.",damaged_item,AUTO_HANDLE,EASY,TRUE,Short damaged goods note.
+gold_091,gold_conv_091,I cannot log into my account. It says password incorrect even after reset.,account_access,AUTO_HANDLE,EASY,TRUE,Password reset loop issue.
+gold_092,gold_conv_092,Not receiving the 2-step verification OTP code on my mobile phone.,account_access,AUTO_HANDLE,EASY,TRUE,2FA SMS OTP delivery delay.
+gold_093,gold_conv_093,"My account has been locked due to suspicious activity, please help unlock it.",account_access,AUTO_HANDLE,MEDIUM,TRUE,Account security lock recovery steps.
+gold_094,gold_conv_094,"I believe my account was hacked, unauthorized orders were placed in another country!",account_access,ESCALATE,HARD,FALSE,Account takeover / fraud in progress; urgent escalation.
+gold_095,gold_conv_095,How do I change the phone number linked to my two-factor authentication?,account_access,AUTO_HANDLE,EASY,TRUE,Phone number update guidance.
+gold_096,gold_conv_096,"No longer have access to my old email address, how can I regain access to my account?",account_access,AUTO_HANDLE,MEDIUM,TRUE,Email loss account verification flow.
+gold_097,gold_conv_097,"Locked out of my Prime account on Apple TV, keeps asking for QR code verification.",account_access,AUTO_HANDLE,EASY,TRUE,Smart TV device registration.
+gold_098,gold_conv_098,Someone changed my account password and registered phone without my permission.,account_access,ESCALATE,HARD,FALSE,Compromised account credential hijack.
+gold_099,gold_conv_099,Why does the login page keep asking me to solve captchas over and over?,account_access,AUTO_HANDLE,MEDIUM,TRUE,Captcha loop browser troubleshooting.
+gold_100,gold_conv_100,Can I merge two separate Amazon accounts under one email?,account_access,AUTO_HANDLE,MEDIUM,TRUE,Account merging policy.
+gold_101,gold_conv_101,"Authenticator app died with my broken phone, cannot generate backup 2FA code.",account_access,AUTO_HANDLE,MEDIUM,TRUE,2FA backup recovery procedure.
+gold_102,gold_conv_102,How do I permanently delete my account and all associated personal data?,account_access,AUTO_HANDLE,MEDIUM,TRUE,GDPR / privacy account closure.
+gold_103,gold_conv_103,Keep getting logged out every 5 minutes while browsing products.,account_access,AUTO_HANDLE,EASY,TRUE,Cookie / session timeout troubleshooting.
+gold_104,gold_conv_104,"Account suspended with active orders pending, what do I do?",account_access,ESCALATE,HARD,FALSE,Account suspension appeal.
+gold_105,gold_conv_105,Is there a way to view active login sessions across devices?,account_access,AUTO_HANDLE,EASY,TRUE,Device management settings.
+gold_106,gold_conv_106,Password reset link emailed to me says expired 10 seconds after clicking.,account_access,AUTO_HANDLE,MEDIUM,TRUE,Expired token glitch.
+gold_107,gold_conv_107,Can two family members share one Prime login legally?,account_access,AUTO_HANDLE,EASY,TRUE,Amazon Household feature advice.
+gold_108,gold_conv_108,System says my phone number is already registered to another user.,account_access,AUTO_HANDLE,MEDIUM,TRUE,Recycled phone number conflict.
+gold_109,gold_conv_109,Can't log in at all.,account_access,AUTO_HANDLE,EASY,TRUE,Short login complaint.
+gold_110,gold_conv_110,Locked out.,account_access,AUTO_HANDLE,EASY,TRUE,Terse login issue.
+gold_111,gold_conv_111,How do I return a gift that I received without notifying the sender?,return_policy_inquiry,AUTO_HANDLE,EASY,TRUE,Gift return procedure.
+gold_112,gold_conv_112,Where do I drop off my return package? Do I need to print a label?,return_policy_inquiry,AUTO_HANDLE,EASY,TRUE,Label-free UPS / Kohl's return instructions.
+gold_113,gold_conv_113,What is the return window for electronics purchased during the holiday season?,return_policy_inquiry,AUTO_HANDLE,EASY,TRUE,Holiday extended return window query.
+gold_114,gold_conv_114,Can I return an opened mattress if it's within the 30 day trial period?,return_policy_inquiry,AUTO_HANDLE,MEDIUM,TRUE,Bulky item return policy.
+gold_115,gold_conv_115,Is return shipping free for Prime members or do I have to pay postage?,return_policy_inquiry,AUTO_HANDLE,EASY,TRUE,Return postage fees inquiry.
+gold_116,gold_conv_116,Return QR code expired before I could make it to the drop-off locker.,return_policy_inquiry,AUTO_HANDLE,MEDIUM,TRUE,Return QR code regeneration.
+gold_117,gold_conv_117,Can I return an item without the original manufacturer cardboard box?,return_policy_inquiry,AUTO_HANDLE,MEDIUM,TRUE,Original packaging requirement.
+gold_118,gold_conv_118,Can I return beauty products or cosmetics after breaking the seal?,return_policy_inquiry,AUTO_HANDLE,MEDIUM,TRUE,Health and personal care return exceptions.
+gold_119,gold_conv_119,Can I return an item purchased from Amazon Warehouse Deals?,return_policy_inquiry,AUTO_HANDLE,EASY,TRUE,Warehouse deals return eligibility.
+gold_120,gold_conv_120,How do I schedule a carrier home pickup for a heavy return parcel?,return_policy_inquiry,AUTO_HANDLE,EASY,TRUE,UPS pickup return option.
+gold_121,gold_conv_121,I lost my return tracking receipt from the drop-off counter.,return_policy_inquiry,AUTO_HANDLE,MEDIUM,TRUE,Drop-off receipt loss guidance.
+gold_122,gold_conv_122,Can international orders be returned using local domestic post?,return_policy_inquiry,AUTO_HANDLE,MEDIUM,TRUE,International return shipping.
+gold_123,gold_conv_123,Are downloadable software codes eligible for return or exchange?,return_policy_inquiry,AUTO_HANDLE,EASY,TRUE,Digital software non-returnable policy.
+gold_124,gold_conv_124,What happens if I accidentally return the wrong item in the return box?,return_policy_inquiry,AUTO_HANDLE,MEDIUM,TRUE,Wrong item returned process.
+gold_125,gold_conv_125,How many days do I have to ship the return after printing the label?,return_policy_inquiry,AUTO_HANDLE,EASY,TRUE,Return label validity window.
+gold_126,gold_conv_126,Can I return an item bought with an promotional gift code?,return_policy_inquiry,AUTO_HANDLE,EASY,TRUE,Promotional balance return rules.
+gold_127,gold_conv_127,Can I return food items or groceries?,return_policy_inquiry,AUTO_HANDLE,EASY,TRUE,Grocery non-returnable refund policy.
+gold_128,gold_conv_128,Does Amazon provide a printed return label if I don't own a printer?,return_policy_inquiry,AUTO_HANDLE,EASY,TRUE,Printerless QR code drop-off.
+gold_129,gold_conv_129,How to return an item?,return_policy_inquiry,AUTO_HANDLE,EASY,TRUE,Short return inquiry.
+gold_130,gold_conv_130,Return policy details.,return_policy_inquiry,AUTO_HANDLE,EASY,TRUE,Terse return keyword.
+gold_131,gold_conv_131,Streaming quality on Prime Video is buffering constantly on my TV.,technical_problem,AUTO_HANDLE,EASY,TRUE,Video buffering troubleshooting.
+gold_132,gold_conv_132,The mobile app crashes every time I click proceed to checkout on iOS 17.,technical_problem,AUTO_HANDLE,MEDIUM,TRUE,App crash at checkout.
+gold_133,gold_conv_133,Getting error code 500 when trying to view my shopping cart on Google Chrome.,technical_problem,AUTO_HANDLE,EASY,TRUE,HTTP 500 error clearing cache.
+gold_134,gold_conv_134,Alexa won't connect to my home Wi-Fi network after router restart.,technical_problem,AUTO_HANDLE,EASY,TRUE,Smart speaker connectivity issue.
+gold_135,gold_conv_135,Kindle Paperwhite screen is frozen on the screensaver and not responding to power button.,technical_problem,AUTO_HANDLE,EASY,TRUE,Kindle hard reboot steps.
+gold_136,gold_conv_136,Credit card payment gateway keeps failing with 'Payment revision needed' even though card is valid.,technical_problem,AUTO_HANDLE,MEDIUM,TRUE,Payment authorization error.
+gold_137,gold_conv_137,Search bar on the website is returning zero results for every keyword today.,technical_problem,AUTO_HANDLE,MEDIUM,TRUE,Website search outage.
+gold_138,gold_conv_138,Prime Video subtitles are out of sync by 10 seconds on season 3.,technical_problem,AUTO_HANDLE,MEDIUM,TRUE,Audio/subtitle sync issue.
+gold_139,gold_conv_139,App says 'Unable to load orders' whenever I refresh the tab.,technical_problem,AUTO_HANDLE,EASY,TRUE,Network connection error in app.
+gold_140,gold_conv_140,"Purchased audiobook won't download in Audible app, stuck at 0%.",technical_problem,AUTO_HANDLE,EASY,TRUE,Audible download stall.
+gold_141,gold_conv_141,"Two-factor SMS arrives 45 minutes late, always invalid.",technical_problem,AUTO_HANDLE,MEDIUM,TRUE,Carrier SMS gateway latency.
+gold_142,gold_conv_142,One-click ordering button disappeared from product pages.,technical_problem,AUTO_HANDLE,EASY,TRUE,1-Click ordering toggle.
+gold_143,gold_conv_143,Fire TV stick is in an endless boot loop showing only logo.,technical_problem,AUTO_HANDLE,MEDIUM,TRUE,Fire TV boot recovery.
+gold_144,gold_conv_144,Can't play downloaded offline videos on iPad during flight.,technical_problem,AUTO_HANDLE,MEDIUM,TRUE,DRM license check for offline media.
+gold_145,gold_conv_145,Website displays in Spanish even though my language setting is English.,technical_problem,AUTO_HANDLE,EASY,TRUE,Language preference reset.
+gold_146,gold_conv_146,Item details page won't let me select sizes from the dropdown.,technical_problem,AUTO_HANDLE,EASY,TRUE,Browser JS glitch.
+gold_147,gold_conv_147,Prime Video 4K HDR playback defaults to 480p on gigabit fiber internet.,technical_problem,AUTO_HANDLE,MEDIUM,TRUE,HDCP / streaming quality negotiation.
+gold_148,gold_conv_148,"Cannot apply promo code at checkout, error says invalid format.",technical_problem,AUTO_HANDLE,EASY,TRUE,Promo coupon formatting issue.
+gold_149,gold_conv_149,App crashed.,technical_problem,AUTO_HANDLE,EASY,TRUE,Short app crash report.
+gold_150,gold_conv_150,Your website is broken.,technical_problem,AUTO_HANDLE,EASY,TRUE,Terse glitch report.
+gold_151,gold_conv_151,I need an official VAT invoice for my business purchase.,product_question,AUTO_HANDLE,EASY,TRUE,VAT invoice download instructions.
+gold_152,gold_conv_152,When will the 256GB space grey model be back in stock?,product_question,AUTO_HANDLE,EASY,TRUE,Stock restocking alert notification.
+gold_153,gold_conv_153,Does this coffee maker work on 220V European voltage or only 110V?,product_question,AUTO_HANDLE,MEDIUM,TRUE,Electrical spec verification.
+gold_154,gold_conv_154,Is this refurbished product backed by the 1-year Amazon Renewed guarantee?,product_question,AUTO_HANDLE,EASY,TRUE,Renewed guarantee warranty terms.
+gold_155,gold_conv_155,Can I buy replacement ear cushions for this headphone model?,product_question,AUTO_HANDLE,MEDIUM,TRUE,Spare parts compatibility.
+gold_156,gold_conv_156,How do I download the manufacturer user manual for order #112-998?,product_question,AUTO_HANDLE,EASY,TRUE,Product documentation link.
+gold_157,gold_conv_157,Does the warranty cover accidental spills and drops on this tablet?,product_question,AUTO_HANDLE,MEDIUM,TRUE,SquareTrade / Asurion protection terms.
+gold_158,gold_conv_158,Is this seller an authorized dealer for Sony cameras?,product_question,AUTO_HANDLE,MEDIUM,TRUE,Authorized reseller inquiry.
+gold_159,gold_conv_159,What is the expiration date on this pack of protein powder before I order?,product_question,AUTO_HANDLE,MEDIUM,TRUE,Perishable expiration query.
+gold_160,gold_conv_160,Can I trade in my old iPhone for gift card credit on this product page?,product_question,AUTO_HANDLE,EASY,TRUE,Amazon Trade-In program eligibility.
+gold_161,gold_conv_161,Are the dimensions in the listing inclusive of the mounting brackets?,product_question,AUTO_HANDLE,MEDIUM,TRUE,Product specification details.
+gold_162,gold_conv_162,Need tax exemption certificate applied to my business account.,product_question,AUTO_HANDLE,MEDIUM,TRUE,Tax exemption registration.
+gold_163,gold_conv_163,Will this case fit the iPhone 15 Pro or only standard 15?,product_question,AUTO_HANDLE,EASY,TRUE,Phone accessory sizing.
+gold_164,gold_conv_164,Can I get an invoice?,product_question,AUTO_HANDLE,EASY,TRUE,Short invoice query.
+gold_165,gold_conv_165,Product warranty details?,product_question,AUTO_HANDLE,EASY,TRUE,Terse warranty inquiry.
+gold_166,gold_conv_166,Your customer service agent hung up on me earlier. Terrible experience.,complaint_escalation,ESCALATE,HARD,FALSE,Agent misconduct complaint; requires supervisor escalation.
+gold_167,gold_conv_167,I have been transferred to 5 different representatives and no one solved my issue!,complaint_escalation,ESCALATE,HARD,FALSE,Repeated transfer failure.
+gold_168,gold_conv_168,I demand to speak with an executive supervisor or manager immediately.,complaint_escalation,ESCALATE,HARD,FALSE,Direct supervisor demand.
+gold_169,gold_conv_169,I am filing a formal complaint with the Federal Trade Commission (FTC) and the Better Business Bureau (BBB) regarding your deceptive practices!,complaint_escalation,ESCALATE,HARD,FALSE,Regulatory / FTC / BBB complaint threat.
+gold_170,gold_conv_170,My lawyer is drafting a lawsuit for breach of contract and deceptive trade practices.,complaint_escalation,ESCALATE,HARD,FALSE,Lawsuit threat; legal risk trigger.
+gold_171,gold_conv_171,Your delivery driver cursed at my wife and shoved our gate!,complaint_escalation,ESCALATE,HARD,FALSE,Physical altercation / driver hostility.
+gold_172,gold_conv_172,I have been a loyal Prime member for 14 years and you treat me like garbage.,complaint_escalation,AUTO_HANDLE,MEDIUM,TRUE,General venting; can be empathetic support auto-handled with standard DM invite.
+gold_173,gold_conv_173,Worst service I have ever experienced in my entire life.,complaint_escalation,AUTO_HANDLE,EASY,TRUE,Generic dissatisfaction expression.
+gold_174,gold_conv_174,If this is not resolved within 1 hour I will make sure this goes viral on TikTok and Twitter.,complaint_escalation,ESCALATE,HARD,FALSE,PR viral threat.
+gold_175,gold_conv_175,An agent promised me a compensation credit in writing and now another agent says that agent lied.,complaint_escalation,ESCALATE,HARD,FALSE,Agent dispute / broken promise.
+gold_176,gold_conv_176,This company is a complete scam and thieves!,complaint_escalation,AUTO_HANDLE,EASY,TRUE,Standard social media venting.
+gold_177,gold_conv_177,I will contact local consumer protection bureau unless an account manager calls me.,complaint_escalation,ESCALATE,HARD,FALSE,Consumer protection escalation threat.
+gold_178,gold_conv_178,I am utterly disgusted with the lack of help from your chat bots.,complaint_escalation,AUTO_HANDLE,MEDIUM,TRUE,"Bot dissatisfaction, auto-route to human DM."
+gold_179,gold_conv_179,Your warehouse sent dangerous contaminated products and refused to apologize.,complaint_escalation,ESCALATE,HARD,FALSE,Contamination hazard complaint.
+gold_180,gold_conv_180,Three weeks of waiting and 10 phone calls with zero resolution.,complaint_escalation,ESCALATE,HARD,FALSE,Chronic unresolved ticket.
+gold_181,gold_conv_181,Rep was rude and unhelpful.,complaint_escalation,AUTO_HANDLE,EASY,TRUE,Brief agent complaint.
+gold_182,gold_conv_182,Horrible experience today.,complaint_escalation,AUTO_HANDLE,EASY,TRUE,Short negative feedback.
+gold_183,gold_conv_183,"I need a senior escalation specialist, not Tier 1 support.",complaint_escalation,ESCALATE,HARD,FALSE,Senior tier demand.
+gold_184,gold_conv_184,"Cancel everything and delete my profile, I'm never shopping here again.",complaint_escalation,AUTO_HANDLE,MEDIUM,TRUE,Angry churn threat.
+gold_185,gold_conv_185,Disgraceful support.,complaint_escalation,AUTO_HANDLE,EASY,TRUE,Short complaint.
+gold_186,gold_conv_186,Hello is anyone there today?,unknown_other,AUTO_HANDLE,EASY,TRUE,Greeting with no support context.
+gold_187,gold_conv_187,"Just wanted to say shoutout to whoever packed my order, great job!",unknown_other,AUTO_HANDLE,EASY,TRUE,Compliment / positive feedback.
+gold_188,gold_conv_188,Can you guys sell pet tigers in the future? Asking for a friend haha.,unknown_other,AUTO_HANDLE,MEDIUM,FALSE,Joke / nonsensical inquiry.
+gold_189,gold_conv_189,What is the meaning of life?,unknown_other,AUTO_HANDLE,MEDIUM,FALSE,Philosophical query.
+gold_190,gold_conv_190,Testing 1 2 3.,unknown_other,AUTO_HANDLE,EASY,FALSE,Test message.
+gold_191,gold_conv_191,Good morning team!,unknown_other,AUTO_HANDLE,EASY,TRUE,Morning greeting.
+gold_192,gold_conv_192,Why is the sky blue?,unknown_other,AUTO_HANDLE,MEDIUM,FALSE,Out of domain trivia.
+gold_193,gold_conv_193,👍,unknown_other,AUTO_HANDLE,EASY,FALSE,Single emoji.
+gold_194,gold_conv_194,Anybody working right now?,unknown_other,AUTO_HANDLE,EASY,TRUE,Availability check.
+gold_195,gold_conv_195,Check your DMs please.,unknown_other,AUTO_HANDLE,MEDIUM,TRUE,Meta DM notification without topic.
+gold_196,gold_conv_196,Hey,unknown_other,AUTO_HANDLE,EASY,TRUE,One word greeting.
+gold_197,gold_conv_197,asdfghjk,unknown_other,AUTO_HANDLE,EASY,FALSE,Gibberish string.
+gold_198,gold_conv_198,Do you like pineapple on pizza?,unknown_other,AUTO_HANDLE,MEDIUM,FALSE,Casual banter.
+gold_199,gold_conv_199,Can someone help me?,unknown_other,AUTO_HANDLE,EASY,TRUE,Vague help plea with no topic.
+gold_200,gold_conv_200,?,unknown_other,AUTO_HANDLE,EASY,FALSE,Single punctuation mark.
