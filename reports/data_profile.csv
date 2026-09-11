@@ -1,0 +1,6 @@
+brand,total_tweets,brand_replies,customer_messages,estimated_conversations,avg_thread_length,reply_coverage_pct,suitability_score
+AmazonHelp,50,50,50,50,2.0,100.0,9.57
+AppleSupport,20,20,20,20,2.0,100.0,9.22
+Uber_Support,15,15,15,15,2.0,100.0,9.11
+SpotifyCares,10,10,10,10,2.0,100.0,8.96
+Delta,10,10,10,10,2.0,100.0,8.96

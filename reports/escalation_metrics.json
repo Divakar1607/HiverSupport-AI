@@ -1,0 +1,12 @@
+{
+  "total_samples": 200,
+  "auto_handled_count": 48,
+  "escalated_count": 152,
+  "auto_handle_rate": 0.24,
+  "escalation_rate": 0.76,
+  "auto_handle_precision": 0.8958,
+  "auto_handle_recall": 0.25,
+  "escalate_precision": 0.1513,
+  "escalate_recall": 0.8214,
+  "auto_handled_error_rate": 0.125
+}

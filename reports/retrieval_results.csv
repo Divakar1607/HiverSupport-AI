@@ -1,0 +1,6 @@
+Metric,Value
+Recall@1,0.605
+Recall@3,0.605
+Recall@5,0.605
+MRR,0.605
+Resolution Utility (%),42.0

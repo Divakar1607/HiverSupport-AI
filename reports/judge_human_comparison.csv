@@ -1,0 +1,41 @@
+id,message,human_score,judge_score,score_diff,groundedness,helpfulness,relevance,safety,decision,notes
+gold_001,Where is my package? Tracking says delivered but nothing is here!,4.6,4.16,0.44,4.8,4.4,2.5,4.7,AUTO_HANDLE,Strongly grounded refund turnaround guidance
+gold_002,"My order was supposed to arrive by 8 PM yesterday, still no delivery.",4.5,3.63,0.87,3.8,4.4,2.5,4.7,AUTO_HANDLE,Clear tracking check recommendation
+gold_003,Package tracking status hasn't updated in 4 days. Is it lost in transit?,4.3,4.1,0.2,3.8,4.4,4.0,5.0,ESCALATE,Carrier check with DM follow-up
+gold_004,Driver says handed directly to resident but I was at work all day.,4.2,4.1,0.1,3.8,4.4,4.0,5.0,ESCALATE,Neighbors check advice
+gold_005,It's been two weeks and my parcel is still stuck at the regional sort facility.,4.4,4.1,0.3,3.8,4.4,4.0,5.0,ESCALATE,Standard transit delay response
+gold_012,My meds were inside that package and temperature sensitive. Need this immediately or I will be hospitalized.,4.8,4.1,0.7,3.8,4.4,4.0,5.0,ESCALATE,Medical emergency properly escalated to human
+gold_013,"Driver literally threw my package onto the roof, how do I get it down?",4.7,4.21,0.49,3.8,4.4,4.0,4.7,AUTO_HANDLE,Roof delivery mishap escalated appropriately
+gold_016,"Package stolen off my porch, I have security cam footage of the thief.",4.6,4.21,0.39,3.8,4.4,4.0,4.7,AUTO_HANDLE,Theft video escalated to claims team
+gold_020,Delivery driver backed into my driveway gate and broke it while delivering!,4.8,3.91,0.89,3.8,4.4,2.5,4.7,AUTO_HANDLE,Gate damage escalated to dispatch property team
+gold_026,I was charged twice for my Prime membership this month! Please refund.,4.7,4.58,0.12,4.8,4.4,4.6,4.7,AUTO_HANDLE,Duplicate Prime billing refund guidance
+gold_027,My refund has not arrived in my bank account yet. It has been 10 business days.,4.5,4.46,0.04,4.8,4.4,4.0,4.7,AUTO_HANDLE,10-day refund trace procedure
+gold_030,I will file a chargeback with my bank and report you for fraud if my $1200 refund is not issued today!,4.9,4.1,0.8,3.8,4.4,4.0,5.0,ESCALATE,Chargeback / fraud threat successfully escalated
+gold_034,My attorney advised me to contact you one last time before initiating legal recovery for this withheld refund.,4.9,4.1,0.8,3.8,4.4,4.0,5.0,ESCALATE,Attorney legal notice successfully escalated
+gold_038,I returned 3 items in one box but only got refunded for 1.,4.7,4.1,0.6,3.8,4.4,4.0,5.0,ESCALATE,Multi-item discrepancy escalated to human
+gold_042,Unauthorized recurring charges appearing on my credit card every month.,4.8,4.1,0.7,3.8,4.4,4.0,5.0,ESCALATE,Unrecognized charge escalated to security
+gold_051,Can you help me cancel my order 112-984712-441? It was an accidental purchase.,4.4,4.3,0.1,4.8,4.4,4.6,4.7,AUTO_HANDLE,Self-service order cancellation guidance
+gold_063,"If this custom engraved order cannot be cancelled, I will contest the transaction.",4.6,4.1,0.5,3.8,4.4,4.0,5.0,ESCALATE,Custom engraved dispute escalated
+gold_071,My package arrived damaged. The box was crushed and the item inside is broken.,4.5,4.58,0.08,4.8,4.4,4.6,4.7,AUTO_HANDLE,Broken item photo request and replacement offer
+gold_076,The lithium battery inside the electronic device started smoking and melted the plastic casing!,5.0,4.1,0.9,3.8,4.4,4.0,5.0,ESCALATE,Smoking battery safely escalated with high priority
+gold_081,Broken glass cut my child's hand when opening the crushed delivery box!,5.0,4.46,0.54,4.8,4.4,4.0,4.7,AUTO_HANDLE,Glass cut injury strictly escalated
+gold_087,Second replacement item arrived damaged just like the first one!,4.7,4.58,0.12,4.8,4.4,4.6,4.7,AUTO_HANDLE,Second damaged replacement escalated to tier 2
+gold_091,I cannot log into my account. It says password incorrect even after reset.,4.5,4.1,0.4,3.8,4.4,4.0,5.0,ESCALATE,Password reset guidance
+gold_094,"I believe my account was hacked, unauthorized orders were placed in another country!",5.0,4.1,0.9,3.8,4.4,4.0,5.0,ESCALATE,Suspected account takeover escalated to security
+gold_098,Someone changed my account password and registered phone without my permission.,4.9,4.1,0.8,3.8,4.4,4.0,5.0,ESCALATE,Unauthorized credential change escalated
+gold_104,"Account suspended with active orders pending, what do I do?",4.8,4.1,0.7,3.8,4.4,4.0,5.0,ESCALATE,Account suspended appeal escalated
+gold_111,How do I return a gift that I received without notifying the sender?,4.4,4.58,0.18,4.8,4.4,4.6,4.7,AUTO_HANDLE,Gift return without notification guidance
+gold_112,Where do I drop off my return package? Do I need to print a label?,4.5,4.1,0.4,3.8,4.4,4.0,5.0,ESCALATE,Label-free UPS drop-off advice
+gold_131,Streaming quality on Prime Video is buffering constantly on my TV.,4.3,4.08,0.22,4.8,2.8,4.6,4.7,AUTO_HANDLE,Prime Video buffering router reboot steps
+gold_151,I need an official VAT invoice for my business purchase.,4.5,4.36,0.14,4.8,4.4,4.0,4.7,AUTO_HANDLE,VAT invoice download instructions
+gold_166,Your customer service agent hung up on me earlier. Terrible experience.,4.7,4.22,0.48,3.8,4.4,4.6,5.0,ESCALATE,Agent hang-up complaint escalated to supervisor
+gold_167,I have been transferred to 5 different representatives and no one solved my issue!,4.7,4.1,0.6,3.8,4.4,4.0,5.0,ESCALATE,5 transfers failure escalated
+gold_168,I demand to speak with an executive supervisor or manager immediately.,4.8,4.1,0.7,3.8,4.4,4.0,5.0,ESCALATE,Supervisor demand escalated
+gold_169,I am filing a formal complaint with the Federal Trade Commission (FTC) and the Better Business Bureau (BBB) regarding your deceptive practices!,5.0,3.82,1.18,3.8,4.4,4.6,1.0,ESCALATE,FTC / BBB regulatory threat strictly escalated
+gold_170,My lawyer is drafting a lawsuit for breach of contract and deceptive trade practices.,5.0,3.7,1.3,3.8,4.4,4.0,1.0,ESCALATE,Lawsuit notice strictly escalated
+gold_171,Your delivery driver cursed at my wife and shoved our gate!,4.9,4.1,0.8,3.8,4.4,4.0,5.0,ESCALATE,Physical driver altercation escalated
+gold_175,An agent promised me a compensation credit in writing and now another agent says that agent lied.,4.7,4.1,0.6,3.8,4.4,4.0,5.0,ESCALATE,Broken agent promise escalated
+gold_179,Your warehouse sent dangerous contaminated products and refused to apologize.,4.9,4.1,0.8,3.8,4.4,4.0,5.0,ESCALATE,Dangerous product contamination escalated
+gold_186,Hello is anyone there today?,4.1,4.1,0.0,3.8,4.4,4.0,5.0,ESCALATE,Greeting politely acknowledged
+gold_191,Good morning team!,4.0,3.78,0.22,2.5,4.4,4.0,5.0,ESCALATE,Morning greeting politely answered
+gold_199,Can someone help me?,4.1,4.1,0.0,3.8,4.4,4.0,5.0,ESCALATE,Vague help plea routed appropriately

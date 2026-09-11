@@ -1,0 +1,73 @@
+{
+  "total_row_count": 210,
+  "unique_customers": 104,
+  "unique_brands": 5,
+  "customer_messages_count": 105,
+  "brand_messages_count": 105,
+  "customer_brand_ratio": 1.0,
+  "duplicate_text_count": 0,
+  "missing_values": {
+    "tweet_id": 0,
+    "author_id": 0,
+    "in_response_to_tweet_id": 0,
+    "created_at": 0,
+    "text": 0,
+    "response_tweet_id": 0,
+    "is_brand": 0,
+    "author_type": 0,
+    "text_clean": 0
+  },
+  "recommended_brand": "AmazonHelp",
+  "top_brands_ranked": [
+    {
+      "brand": "AmazonHelp",
+      "total_tweets": 50,
+      "brand_replies": 50,
+      "customer_messages": 50,
+      "estimated_conversations": 50,
+      "avg_thread_length": 2.0,
+      "reply_coverage_pct": 100.0,
+      "suitability_score": 9.57
+    },
+    {
+      "brand": "AppleSupport",
+      "total_tweets": 20,
+      "brand_replies": 20,
+      "customer_messages": 20,
+      "estimated_conversations": 20,
+      "avg_thread_length": 2.0,
+      "reply_coverage_pct": 100.0,
+      "suitability_score": 9.22
+    },
+    {
+      "brand": "Uber_Support",
+      "total_tweets": 15,
+      "brand_replies": 15,
+      "customer_messages": 15,
+      "estimated_conversations": 15,
+      "avg_thread_length": 2.0,
+      "reply_coverage_pct": 100.0,
+      "suitability_score": 9.11
+    },
+    {
+      "brand": "SpotifyCares",
+      "total_tweets": 10,
+      "brand_replies": 10,
+      "customer_messages": 10,
+      "estimated_conversations": 10,
+      "avg_thread_length": 2.0,
+      "reply_coverage_pct": 100.0,
+      "suitability_score": 8.96
+    },
+    {
+      "brand": "Delta",
+      "total_tweets": 10,
+      "brand_replies": 10,
+      "customer_messages": 10,
+      "estimated_conversations": 10,
+      "avg_thread_length": 2.0,
+      "reply_coverage_pct": 100.0,
+      "suitability_score": 8.96
+    }
+  ]
+}

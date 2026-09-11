@@ -1,0 +1,4 @@
+Model,Accuracy,Macro F1,Weighted F1,Macro Precision,Macro Recall
+Majority,0.125,0.0222,0.0278,0.0125,0.1
+TF-IDF + LogReg,0.685,0.6708,0.6778,0.7428,0.6727
+Proposed (Dense Subword),0.745,0.7372,0.742,0.7642,0.7353

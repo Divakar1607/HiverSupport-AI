@@ -1,0 +1,11 @@
+Metric,Value,Target / Benchmark
+Intent Macro F1 (Proposed),0.7372,>= 0.70
+Intent Accuracy (Proposed),0.745,>= 0.70
+Retrieval Recall@5,0.605,>= 0.60
+Retrieval MRR,0.605,>= 0.55
+Mean Groundedness (1-5),3.81,>= 4.0
+Mean Helpfulness (1-5),4.35,>= 4.0
+Auto-Handle Precision,89.6%,>= 85%
+Auto-Handled Error Rate,12.5%,<= 15%
+Overall Escalation Rate,76.0%,Inspectable
+Judge/Human +/-1 Agreement,95.0%,>= 90%

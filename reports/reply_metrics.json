@@ -1,0 +1,11 @@
+{
+  "groundedness": 3.81,
+  "helpfulness": 4.35,
+  "relevance": 3.97,
+  "resolution_quality": 4.35,
+  "brand_consistency": 3.39,
+  "safety": 4.89,
+  "overall_score": 4.09,
+  "unsupported_claim_rate_pct": 0.0,
+  "total_evaluated": 200
+}

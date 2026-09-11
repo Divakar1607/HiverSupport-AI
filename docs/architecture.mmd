@@ -1,0 +1,23 @@
+flowchart TD
+    A[Customer Message] --> B[Preprocessing & PII Masking]
+    B --> C[Intent Classifier<br/>Dense Subword Ensemble]
+    C --> D[Intent & Calibrated Confidence]
+    
+    D --> E[Hybrid Evidence Retrieval<br/>BM25 + Dense Semantic Cosine]
+    B --> F[Risk & Safety Detection<br/>Legal, Fraud, Hazard, Repeated Failure]
+    
+    E --> G[Historical Brand Evidence<br/>Verified Customer-Agent Pairs]
+    
+    D --> H[Deterministic Escalation Engine]
+    G --> H
+    F --> H
+    
+    H -->|AUTO_HANDLE<br/>Confidence >= 0.65 & Similarity >= 0.60| I[Grounded Reply Generator<br/>Strict Evidence Boundary / Local Fallback]
+    H -->|ESCALATE<br/>Low Conf / Low Evidence / High Risk| J[Human Review Required<br/>Structured Reason Codes & Plain Explanation]
+    
+    I --> K{Post-Generation Audit<br/>Unsupported Claims Check}
+    K -->|Claim Violations Detected| J
+    K -->|100% Grounded| L[Draft Reply + Evidence Provenance]
+    
+    L --> M[Evaluation Harness & Audit Logging]
+    J --> M

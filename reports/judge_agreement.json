@@ -1,0 +1,7 @@
+{
+  "num_samples": 40,
+  "exact_agreement": 0.05,
+  "plus_minus_one_agreement": 0.95,
+  "pearson_correlation": -0.0487,
+  "spearman_correlation": -0.1203
+}
